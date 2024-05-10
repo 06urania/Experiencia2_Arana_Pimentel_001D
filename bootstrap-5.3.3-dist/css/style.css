@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/Imagenes/fondo.jpg);
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background-color: #615e4b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+header img {
+  height: 100px;
+}
+
+section {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+footer,
+.correosyderechos {
+  background-color: darkslategray;
+  height: 130px;
+  display: block;
+}
+
+.link-header {
+  position: sticky;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #615e4b;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link-header a {
+  color: white;
+}
+
+.link-header li {
+  text-align: center;
+}
+
+.texto-banner {
+  color: #ebe5e2;
+  font-size: 45px;
+  text-align: center;
+}
+
+.subtitulos {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+.contenido,
+.subtitulomenor,
+.texto {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebeae9;
+}
+
+.subtitulomenor {
+  font-weight: bold;
+}
+
+.redes img {
+  height: 35px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.redes ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correoyderechos li {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding-left: 10%;
+}
+
+.secciones {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.bg-imagen {
+  background-image: url(https://images.pexels.com/photos/2649403/pexels-photo-2649403.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-222549-2649403.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.carousel-control-prev {
+  color: #000000;
+}

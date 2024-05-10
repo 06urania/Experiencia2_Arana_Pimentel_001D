@@ -1,0 +1,27 @@
+.imggaleria {
+  padding-bottom: 30px;
+  height: 320;
+}
+
+.imagen-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgb(141, 175, 204);
+  color: white;
+  padding: 5px;
+  display: none;
+}
+
+.imagen-tooltip:hover .tooltip {
+  display: block;
+}
+
+figcaption {
+  color: rgb(45, 44, 44);
+  background-color: whitesmoke;
+  margin-bottom: 30px;
+}
